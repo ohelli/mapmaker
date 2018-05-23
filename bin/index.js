@@ -356,8 +356,8 @@ let save = (name) => {
 let cleanup = () => {
   // erase downloaded shape files
   rimraf.sync(tempPath);
-  upload();
   console.log(chalk.yellow("✓ Done making map."));
+  upload();
 };
 
 /**
