@@ -1,0 +1,25 @@
+{
+  "name": "mapcutter",
+  "version": "1.0.0",
+  "description": "cuts shapefiles to a specified bound",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "map"
+  ],
+  "author": "Elizabeth Pich",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "command-exists": "^1.2.6",
+    "commander": "^2.15.0",
+    "fs": "0.0.1-security",
+    "shelljs": "^0.8.1",
+    "walk": "^2.3.9"
+  },
+  "bin": {
+    "mapcutter": "bin/index.js"
+  }
+}

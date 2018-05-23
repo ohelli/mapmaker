@@ -1,0 +1,29 @@
+{
+  "name": "mapmaker",
+  "version": "1.0.0",
+  "description": "makes vector maps out of shapefiles, clipped to a specified bound",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "map"
+  ],
+  "author": "Elizabeth Pich",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "chalk": "^2.4.1",
+    "command-exists": "^1.2.6",
+    "commander": "^2.15.1",
+    "fs": "0.0.1-security",
+    "mapshaper": "^0.4.76",
+    "rimraf": "^2.6.2",
+    "walk": "2.3.13",
+    "request": "^2.87.0",
+    "prompt": "^1.0.0" 
+  },
+  "bin": {
+    "mapmaker": "bin/index.js"
+  }
+}
